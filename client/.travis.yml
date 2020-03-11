@@ -20,4 +20,4 @@ after_success:
   - docker push mpap95/multi-nginx
   - docker push mpap95/multi-server
   - docker push mpap95/multi-worker
-  
+
