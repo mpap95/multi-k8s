@@ -10,7 +10,7 @@ script:
 
 after_success:
   - docker build -t mpap95/multi-client ./client
-  - docker build -t mpap95/multi-ngin ./nginx
+  - docker build -t mpap95/multi-nginx ./nginx
   - docker build -t mpap95/multi-server ./server
   - docker build -t mpap95/multi-worker ./worker
   # Log in to docker CLI
